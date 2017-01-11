@@ -4,7 +4,7 @@ var restify = require('restify');
 
 var server = restify.createServer();
 
-server.listen(3001, function () {
+server.listen(process.env.PORT || 3001, function () {
   console.log('%s listening at %s', server.name, server.url);
 });
 
