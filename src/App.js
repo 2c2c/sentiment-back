@@ -22,7 +22,7 @@ class App extends Component {
   }
   componentDidMount() {
     axios
-      .get('/hourlytweets')
+      .get('/api/hourlytweets')
       .then(resp => {
         this.setState({tweets: resp.data})
       })
