@@ -1,4 +1,6 @@
-require('dotenv').config()
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config()
+}
 
 var Twit = require('twit')
 var sentiment = require('sentiment')
@@ -6,7 +8,7 @@ var moment = require('moment')
 var ss = require('simple-statistics')
 
 var mongoose = require('./mongo')
-var HourlyTweets = require('./schema.js').hourlyTweets(mongoose)
+var HourlyTweets = mongoose.model('hourlytweets')
 
 function analyzeStats(stats) {
   let median = ss.median(stats.map(s => s.total_sent))

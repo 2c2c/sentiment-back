@@ -1,5 +1,6 @@
+// inserts dummy data into mongo
 var mongoose = require('./mongo')
-var HourlyTweets = require('./schema').hourlyTweets(mongoose)
+var HourlyTweets = mongoose.model('hourlytweets')
 var moment = require('moment')
 var async = require('async')
 var range = require('lodash/range')
@@ -13,14 +14,12 @@ async.eachSeries(range(50), (i, cb) => {
     return d
   })
 
-  // console.log(newdata)
 
   HourlyTweets.insertMany(data, (err, docs) => {
     if (err) {
       console.log(err)
       return
     }
-    // console.log('inserting') console.log(docs)
     cb()
   })
 

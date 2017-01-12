@@ -1,1 +1,1 @@
-web: node ./server/restify.js
+web: yarn start

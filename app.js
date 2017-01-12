@@ -1,6 +1,7 @@
 var mongoose = require('./mongo')
-var HourlyTweets = require('./schema.js').hourlyTweets(mongoose)
-var restify = require('restify');
+var HourlyTweets = mongoose.model('hourlytweets')
+var restify = require('restify')
+var sent = require('./sent')
 
 var server = restify.createServer();
 
@@ -10,7 +11,7 @@ server.listen(process.env.PORT || 3001, function () {
 
 restify.defaultResponseHeaders = false; // disable altogether
 
-server.get('/hourlytweets', (req, res, send) => {
+server.get('/api/hourlytweets', (req, res, send) => {
   let query = HourlyTweets.find((err, tweet) => {
     req.log
     res.send(tweet)
