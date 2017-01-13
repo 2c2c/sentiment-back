@@ -17,3 +17,8 @@ server.get('/api/hourlytweets', (req, res, send) => {
     res.send(tweet)
   })
 })
+
+const TEN_MINUTES = 1000 * 60 * 10
+setInterval(() => {
+  console.log('10min ping')
+}, TEN_MINUTES)
