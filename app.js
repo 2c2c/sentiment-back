@@ -11,14 +11,13 @@ server.listen(process.env.PORT || 3001, function () {
 
 restify.defaultResponseHeaders = false; // disable altogether
 
+server.get('/', (req, res, send) => {
+  res.send('pong')
+})
+
 server.get('/api/hourlytweets', (req, res, send) => {
   let query = HourlyTweets.find((err, tweet) => {
     req.log
     res.send(tweet)
   })
 })
-
-const TEN_MINUTES = 1000 * 60 * 10
-setInterval(() => {
-  console.log('10min ping')
-}, TEN_MINUTES)
