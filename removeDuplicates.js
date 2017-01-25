@@ -45,7 +45,7 @@ const extraDatapoints = (docs,hour) => {
       }
 
       return 0;
-    }).splice(0, 1);
+    }).splice(1);
   });
 
   return extra_datapoints;
