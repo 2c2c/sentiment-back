@@ -1,4 +1,4 @@
-// inserts dummy data into mongo
+// removes duplicate entries from db to cleanup mess from early on
 var mongoose = require("./mongo");
 var HourlyTweets = mongoose.model("hourlytweets");
 var moment = require("moment");
@@ -58,5 +58,7 @@ HourlyTweets.find({}, (err, docs) => {
 
   const values = _.range(24)
   const test = values.map(i => extraDatapoints(docs, i+1))
-  console.log(_.flattenDeep(test))
+
+  //im gonna kms
+  HourlyTweets.remove(_.flattenDeep(test), () => console.log("ok"))
 });
