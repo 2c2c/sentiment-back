@@ -1,0 +1,112 @@
+2017-01-17T16:22:30.114282+00:00 app[scheduler.5595]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T16:22:30.243790+00:00 app[scheduler.5595]: "pong"
+2017-01-17T16:22:30.142673+00:00 app[scheduler.5595]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    212      0 --:--:-- --:--:-- --:--:--   214
+2017-01-17T16:22:30.249994+00:00 heroku[scheduler.5595]: Process exited with status 0
+2017-01-17T16:22:30.459384+00:00 heroku[scheduler.5595]: State changed from up to complete
+2017-01-17T16:27:44.887772+00:00 app[web.1]: ending stream
+2017-01-17T16:27:44.895237+00:00 app[web.1]: saved to db
+2017-01-17T16:32:30.097472+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T16:32:32.642221+00:00 heroku[scheduler.8862]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T16:32:33.266112+00:00 heroku[scheduler.8862]: State changed from starting to up
+2017-01-17T16:32:35.314331+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=f5b7cbd3-b635-47fe-a6a5-8e161c1bda02 fwd="54.234.89.96" dyno=web.1 connect=0ms service=4ms status=200 bytes=132
+2017-01-17T16:32:35.476775+00:00 heroku[scheduler.8862]: State changed from up to complete
+2017-01-17T16:32:35.284910+00:00 app[scheduler.8862]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T16:32:35.289322+00:00 app[scheduler.8862]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T16:32:35.321927+00:00 app[scheduler.8862]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    226      0 --:--:-- --:--:-- --:--:--   230
+2017-01-17T16:32:35.456412+00:00 app[scheduler.8862]: "pong"
+2017-01-17T16:32:35.461492+00:00 heroku[scheduler.8862]: Process exited with status 0
+2017-01-17T16:42:25.679271+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T16:42:32.658479+00:00 heroku[scheduler.5007]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T16:42:33.377332+00:00 heroku[scheduler.5007]: State changed from starting to up
+2017-01-17T16:42:35.068404+00:00 app[scheduler.5007]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T16:42:35.068887+00:00 app[scheduler.5007]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T16:42:35.106610+00:00 app[scheduler.5007]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    153      0 --:--:-- --:--:-- --:--:--   157
+2017-01-17T16:42:35.189564+00:00 app[scheduler.5007]: "pong"
+2017-01-17T16:42:35.197257+00:00 heroku[scheduler.5007]: Process exited with status 0
+2017-01-17T16:42:35.209273+00:00 heroku[scheduler.5007]: State changed from up to complete
+2017-01-17T16:42:35.120929+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=80501250-fb4e-42ca-870b-cb4c1053bacc fwd="54.196.17.206" dyno=web.1 connect=1ms service=4ms status=200 bytes=132
+2017-01-17T16:52:04.526995+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T16:52:06.807427+00:00 heroku[scheduler.8415]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T16:52:07.345522+00:00 heroku[scheduler.8415]: State changed from starting to up
+2017-01-17T16:52:08.539103+00:00 heroku[scheduler.8415]: Process exited with status 0
+2017-01-17T16:52:08.444666+00:00 app[scheduler.8415]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T16:52:08.444726+00:00 app[scheduler.8415]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T16:52:08.479380+00:00 app[scheduler.8415]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    172      0 --:--:-- --:--:-- --:--:--   176
+2017-01-17T16:52:08.535583+00:00 app[scheduler.8415]: "pong"
+2017-01-17T16:52:08.548275+00:00 heroku[scheduler.8415]: State changed from up to complete
+2017-01-17T16:52:08.474529+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=71e84fea-eb27-4a91-9db4-b4c7ff1bbe5f fwd="54.91.182.210" dyno=web.1 connect=0ms service=2ms status=200 bytes=132
+2017-01-17T17:03:08.180711+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T17:03:10.747589+00:00 heroku[scheduler.5911]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T17:03:11.306222+00:00 heroku[scheduler.5911]: State changed from starting to up
+2017-01-17T17:03:12.908108+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=cd307a68-48bc-46c5-9fe9-5e3e2ff5154c fwd="54.221.19.106" dyno=web.1 connect=0ms service=1ms status=200 bytes=132
+2017-01-17T17:03:12.890643+00:00 app[scheduler.5911]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T17:03:12.890837+00:00 app[scheduler.5911]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T17:03:12.910372+00:00 app[scheduler.5911]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    318      0 --:--:-- --:--:-- --:--:--   333
+2017-01-17T17:03:13.090009+00:00 app[scheduler.5911]: "pong"
+2017-01-17T17:03:13.118911+00:00 heroku[scheduler.5911]: State changed from up to complete
+2017-01-17T17:03:13.096116+00:00 heroku[scheduler.5911]: Process exited with status 0
+2017-01-17T17:04:52.651545+00:00 app[web.1]: starting stream back up
+2017-01-17T17:06:50.489619+00:00 heroku[router]: at=info method=GET path="/api//hourlytweets" host=twitsent.herokuapp.com request_id=a622b825-7849-4f76-a3a2-b5f2a53f143f fwd="75.139.230.207,54.225.19.14" dyno=web.1 connect=0ms service=191ms status=200 bytes=69798
+2017-01-17T17:12:30.262815+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T17:12:32.381743+00:00 heroku[scheduler.6325]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T17:12:33.015207+00:00 heroku[scheduler.6325]: State changed from starting to up
+2017-01-17T17:12:33.953922+00:00 app[scheduler.6325]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T17:12:33.953987+00:00 app[scheduler.6325]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T17:12:33.991950+00:00 app[scheduler.6325]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    157      0 --:--:-- --:--:-- --:--:--   162
+2017-01-17T17:12:34.056167+00:00 app[scheduler.6325]: "pong"
+2017-01-17T17:12:34.059601+00:00 heroku[scheduler.6325]: Process exited with status 0
+2017-01-17T17:12:33.999104+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=2e6a1d8c-2e72-4f12-bb8c-d755d3486fda fwd="54.234.18.82" dyno=web.1 connect=0ms service=21ms status=200 bytes=132
+2017-01-17T17:12:34.075351+00:00 heroku[scheduler.6325]: State changed from up to complete
+2017-01-17T17:15:25.835808+00:00 app[web.1]: ending stream
+2017-01-17T17:15:25.855873+00:00 app[web.1]: saved to db
+2017-01-17T17:22:14.096895+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T17:22:16.502355+00:00 heroku[scheduler.5242]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T17:22:17.192326+00:00 heroku[scheduler.5242]: State changed from starting to up
+2017-01-17T17:22:18.703734+00:00 app[scheduler.5242]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T17:22:18.703872+00:00 app[scheduler.5242]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T17:22:18.741901+00:00 app[scheduler.5242]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    156      0 --:--:-- --:--:-- --:--:--   157
+2017-01-17T17:22:18.801090+00:00 app[scheduler.5242]: "pong"
+2017-01-17T17:22:18.811169+00:00 heroku[scheduler.5242]: State changed from up to complete
+2017-01-17T17:22:18.733405+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=45c22e28-841f-4a3c-adb5-15eb69985824 fwd="54.91.156.128" dyno=web.1 connect=0ms service=3ms status=200 bytes=132
+2017-01-17T17:22:18.804645+00:00 heroku[scheduler.5242]: Process exited with status 0
+2017-01-17T17:33:03.182088+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T17:33:05.620277+00:00 heroku[scheduler.7119]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T17:33:06.281662+00:00 heroku[scheduler.7119]: State changed from starting to up
+2017-01-17T17:33:07.660464+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=a778649d-3c87-40fd-bcf7-f7e56e42ceab fwd="54.204.245.213" dyno=web.1 connect=0ms service=1ms status=200 bytes=132
+2017-01-17T17:33:07.744926+00:00 heroku[scheduler.7119]: Process exited with status 0
+2017-01-17T17:33:07.645017+00:00 app[scheduler.7119]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T17:33:07.645174+00:00 app[scheduler.7119]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T17:33:07.678778+00:00 app[scheduler.7119]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    177      0 --:--:-- --:--:-- --:--:--   181
+2017-01-17T17:33:07.741704+00:00 app[scheduler.7119]: "pong"
+2017-01-17T17:33:07.741235+00:00 heroku[scheduler.7119]: State changed from up to complete
+2017-01-17T17:42:16.167729+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T17:42:18.576372+00:00 heroku[scheduler.5650]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T17:42:19.320896+00:00 heroku[scheduler.5650]: State changed from starting to up
+2017-01-17T17:42:21.260929+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=a45974f1-fe92-4600-b9a2-c7553b338761 fwd="54.204.207.82" dyno=web.1 connect=0ms service=1ms status=200 bytes=132
+2017-01-17T17:42:21.188109+00:00 app[scheduler.5650]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T17:42:21.188161+00:00 app[scheduler.5650]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T17:42:21.270020+00:00 app[scheduler.5650]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0     74      0 --:--:-- --:--:-- --:--:--    75
+2017-01-17T17:42:21.351201+00:00 app[scheduler.5650]: "pong"
+2017-01-17T17:42:21.370010+00:00 heroku[scheduler.5650]: State changed from up to complete
+2017-01-17T17:42:21.355676+00:00 heroku[scheduler.5650]: Process exited with status 0
+2017-01-17T17:52:05.464662+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T17:52:07.730735+00:00 heroku[scheduler.4188]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T17:52:08.493216+00:00 heroku[scheduler.4188]: State changed from starting to up
+2017-01-17T17:52:09.952731+00:00 app[scheduler.4188]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T17:52:09.952746+00:00 app[scheduler.4188]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T17:52:09.971557+00:00 app[scheduler.4188]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    311      0 --:--:-- --:--:-- --:--:--   315
+2017-01-17T17:52:10.065453+00:00 app[scheduler.4188]: "pong"
+2017-01-17T17:52:09.967802+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=af975831-c4a8-4c65-8593-63d6f2d5d4de fwd="54.161.91.179" dyno=web.1 connect=0ms service=2ms status=200 bytes=132
+2017-01-17T17:52:10.082072+00:00 heroku[scheduler.4188]: State changed from up to complete
+2017-01-17T17:52:10.070164+00:00 heroku[scheduler.4188]: Process exited with status 0
+2017-01-17T18:04:15.852590+00:00 app[api]: Starting process with command `curl twitsent.herokuapp.com` by user scheduler@addons.heroku.com
+2017-01-17T18:04:18.539998+00:00 heroku[scheduler.4811]: Starting process with command `curl twitsent.herokuapp.com`
+2017-01-17T18:04:19.099903+00:00 heroku[scheduler.4811]: State changed from starting to up
+2017-01-17T18:04:20.905651+00:00 heroku[router]: at=info method=GET path="/" host=twitsent.herokuapp.com request_id=5d6fc50e-be9f-4ba4-b4d4-d9dc069c704e fwd="184.73.73.156" dyno=web.1 connect=1ms service=1ms status=200 bytes=132
+2017-01-17T18:04:20.893543+00:00 app[scheduler.4811]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2017-01-17T18:04:20.893706+00:00 app[scheduler.4811]:                                  Dload  Upload   Total   Spent    Left  Speed
+2017-01-17T18:04:20.903926+00:00 app[scheduler.4811]:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     6  100     6    0     0    541      0 --:--:-- --:--:-- --:--:--   600
+2017-01-17T18:04:20.977753+00:00 app[scheduler.4811]: "pong"
+2017-01-17T18:04:20.981774+00:00 heroku[scheduler.4811]: Process exited with status 0
+2017-01-17T18:04:20.993367+00:00 heroku[scheduler.4811]: State changed from up to complete
+2017-01-17T18:04:52.656257+00:00 app[web.1]: starting stream back up

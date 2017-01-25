@@ -17,7 +17,7 @@ function analyzeStats(stats) {
   let low = ss.min(stats.map(s => s.total_sent));
   let high = ss.max(stats.map(s => s.total_sent));
 
-  console.log({mean, median, sd, low, high});
+  console.log({ mean, median, sd, low, high });
 }
 
 const ONE_MINUTE = 60 * 1000;
