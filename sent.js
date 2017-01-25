@@ -34,10 +34,14 @@ let stream = T.stream("statuses/sample");
 
 stats = [];
 
+let is_stream_active = false;
 let num_tweets = 0;
 let sent = [];
 let comp = [];
 stream.on("tweet", tweet => {
+  if (!is_stream_active) {
+    return;
+  }
   if (tweet.lang !== "en") {
     return;
   }
@@ -78,6 +82,7 @@ stream.on("tweet", tweet => {
   console.log("ending stream");
   stream.stop();
   num_tweets = 0;
+  is_stream_active = false;
 });
 
 const ONE_HOUR = 1000 * 60 * 60;
@@ -89,7 +94,13 @@ setInterval(
       return;
     }
 
+    if (is_stream_active) {
+      console.warn("stream is already active");
+      return;
+    }
+
     stream.start();
+    is_stream_active = true;
   },
   ONE_HOUR
 );
