@@ -59,6 +59,19 @@ HourlyTweets.find({}, (err, docs) => {
   const values = _.range(24)
   const test = values.map(i => extraDatapoints(docs, i+1))
 
+  const items_to_delete = _.flattenDeep(test)
+  let i = items_to_delete.length
+
+  while(i--) {
+    HourlyTweets.remove(items_to_delete[i], (err, res) => {
+      if (err) {
+        console.log(err)
+      }
+      console.log("removed ", res)
+    })
+  }
+
+
   //im gonna kms
-  HourlyTweets.remove(_.flattenDeep(test), () => console.log("ok"))
+  // HourlyTweets.remove(_.flattenDeep(test), () => console.log("ok"))
 });
